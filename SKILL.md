@@ -8,66 +8,66 @@ description: >-
 
 # Clarity - Spec and Requirements (Canonical)
 
-**Level: max.** Aliases: `spec-kit`, `mdflow` (untuk jalur spec/agent-from-markdown).
+**Level: max.** Aliases: `spec-kit`, `mdflow` (for spec / agent-from-markdown path).
 
 ## When to use
 
-- Brief kabur -> spec / SRS / AC
-- Sebelum Development di `e2e-delivery`
-- User minta Spec-Kit / markdown executable agents untuk requirement
+- Vague brief -> spec / SRS / AC
+- Before Development in `e2e-delivery`
+- User requests Spec-Kit / markdown executable agents for requirements
 
 ## When not to use
 
-- Tanya singkat tanpa deliverable
-- Spec sudah approved dan hanya bugfix kecil
+- Short question without deliverable
+- Spec already approved and only small bugfix
 
-## 5-phase workflow (wajib)
+## 5-phase workflow (required)
 
 ### 1. Ingest
 
-Sumber: brief, issue, mockup, repo notes, regulasi domain bila relevan.  
-Output: daftar sumber + ringkasan bullet.
+Sources: brief, issue, mockup, repo notes, domain regulation if relevant.  
+Output: source list + bullet summary.
 
 ### 2. Clarify
 
-Tanya **hanya** blocker. Sisanya -> asumsi tertulis.
+Ask **only** blockers. Everything else -> written assumptions.
 
 ### 3. Structure
 
-Wajib section:
+Required sections:
 
 1. Problem & goal  
 2. Actors  
 3. In/out scope  
 4. FR + NFR  
-5. AC (Given/When/Then bila cocok)  
+5. AC (Given/When/Then if appropriate)  
 6. Open questions  
 7. Risks / assumptions  
 
-Tulis ke `project/{id}/docs/srs/`.
+Write to `project/{id}/docs/srs/`.
 
 ### 4. Validate
 
-- [ ] Setiap FR P0 punya AC  
-- [ ] Tidak kontradiktif  
-- [ ] Out-of-scope eksplisit  
-- [ ] Data sensitif disebut di NFR bila relevan  
+- [ ] Every P0 FR has AC  
+- [ ] Not contradictory  
+- [ ] Out-of-scope explicit  
+- [ ] Sensitive data mentioned in NFR if relevant  
 
 ### 5. Handoff
 
-- Siap planning/architecture?  
-- Skill berikutnya: `agentic-flow` / roles Architect  
+- Ready for planning/architecture?  
+- Next skill: `agentic-flow` / Architect roles  
 
 ## Spec-Kit / mdflow bridge
 
-- Kalau repo memakai Spec-Kit: hasil Clarity harus kompatibel dengan artefak spec kit project
-- Markdown agents: satu file = satu tanggung jawab; jangan menyembunyikan requirement di prosa tanpa ID FR
+- If repo uses Spec-Kit: Clarity output must be compatible with project spec kit artifacts
+- Markdown agents: one file = one responsibility; do not hide requirements in prose without FR ID
 
 ## DoD
 
-- [ ] File SRS/spec di path project  
-- [ ] AC P0 lengkap  
-- [ ] Asumsi & pertanyaan terbuka tercatat
+- [ ] SRS/spec file at project path  
+- [ ] P0 AC complete  
+- [ ] Assumptions & open questions recorded
 ## Attribution
 
 <!-- ATTRIBUTION: Rogue Development | https://github.com/rogue-dev-studio | DO-NOT-REMOVE -->
