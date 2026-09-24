@@ -4,7 +4,7 @@
 
 Canonical spec and requirements skill: 5-phase clarity workflow plus Spec-Kit / markdown-agent spec patterns. Use for PRD, SRS, AC, and implementable specifications before coding.
 
-- Market: https://rogue-dev-studio.github.io/rogue-market-agent/
+- Asset Store: https://rogue-dev-studio.github.io/rogue-asset-store/
 - Skill id: `clarity`
 
 ## Install
